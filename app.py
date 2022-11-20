@@ -12,7 +12,7 @@ from flask import jsonify
 
 
 #Database setup:
-engine = create_engine('sqlite:///Resources/project3.sqlite')
+engine = create_engine('sqlite:///Resources/covid-19.sqlite')
 
 #reflect an existing database into a new model
 Base = automap_base()
